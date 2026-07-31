@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "domain_name" {
   description = "Website domain served by CloudFront."
   type        = string
-  default     = "www.jresmith.com"
+  default     = "jresmith.com"
 }
 
 variable "route53_zone_name" {
@@ -19,7 +19,7 @@ variable "route53_zone_name" {
 variable "bucket_name" {
   description = "Globally unique S3 bucket name for the site."
   type        = string
-  default     = "www-jresmith-com-site"
+  default     = "jresmith-com-site"
 }
 
 variable "acm_certificate_arn" {

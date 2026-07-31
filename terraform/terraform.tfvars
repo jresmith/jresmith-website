@@ -1,0 +1,5 @@
+aws_region          = "us-west-2"
+domain_name         = "jresmith.com"
+route53_zone_name   = "jresmith.com"
+bucket_name         = "jresmith-com-site"
+acm_certificate_arn = "arn:aws:acm:us-east-1:945503455271:certificate/71af9ba5-386b-46d6-aee2-d76e676ad29f"

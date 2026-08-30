@@ -27,7 +27,7 @@ W > Export Code
 * Unzip folder into directory in jresmith-website repo
 * Sync over data from site directory into S3 bucket
 ```
-aws s3 sync new-site-dir/ s3://www-jresmith-com-site --delete
+aws s3 sync new-site-dir/ s3://jresmith-com-site --delete
 ```
 * Invalidate Cloudfront:
 ```
